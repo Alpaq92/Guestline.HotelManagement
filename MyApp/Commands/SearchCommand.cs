@@ -88,14 +88,13 @@ namespace MyApp.Commands
                 _logger.LogWarning("Provided incorrect amount of arguments");
             }
 
-            var found = results.Count > 0;
-            if (!found)
+            if (results.Count == 0)
             {
                 _logger.LogWarning("Did not found any fits");
             }
             
 
-            return found;
+            return true;
         }
     }
 }
