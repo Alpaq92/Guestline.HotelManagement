@@ -1,5 +1,5 @@
 # Guestline.HotelManagement
-Guestline Code Test Senior
+Guestline Code Test for Senior Software Engineer role
 
 # App usage
 
