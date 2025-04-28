@@ -37,6 +37,10 @@ namespace MyApp.Components
                         _logger.LogInformation($"Found command {command.GetType().Name}");
                         shouldContinue = command.Execute(input, data);
                     }
+                    else
+                    {
+                        _logger.LogInformation("Could not suited command");
+                    }
                 }
             }
         }
